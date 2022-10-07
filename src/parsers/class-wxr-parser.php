@@ -1,13 +1,13 @@
 <?php
 /**
- * WordPress eXtended RSS file parser implementations
+ * ClassicPress eXtended RSS file parser implementations
  *
- * @package WordPress
+ * @package ClassicPress
  * @subpackage Importer
  */
 
 /**
- * WordPress Importer class for managing parsing of WXR files.
+ * ClassicPress Importer class for managing parsing of WXR files.
  */
 class WXR_Parser {
 	function parse( $file ) {
@@ -42,8 +42,8 @@ class WXR_Parser {
 				echo $error[0] . ':' . $error[1] . ' ' . esc_html( $error[2] );
 			}
 			echo '</pre>';
-			echo '<p><strong>' . __( 'There was an error when reading this WXR file', 'wordpress-importer' ) . '</strong><br />';
-			echo __( 'Details are shown above. The importer will now try again with a different parser...', 'wordpress-importer' ) . '</p>';
+			echo '<p><strong>' . __( 'There was an error when reading this WXR file', 'classicpress-importer' ) . '</strong><br />';
+			echo __( 'Details are shown above. The importer will now try again with a different parser...', 'classicpress-importer' ) . '</p>';
 		}
 
 		// use regular expressions if nothing else available or this is bad XML

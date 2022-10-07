@@ -1,8 +1,8 @@
 <?php
 /**
- * Implementation for WordPress functions missing in older WordPress versions.
+ * Implementation for ClassicPress functions missing in older ClassicPress versions.
  *
- * @package WordPress
+ * @package ClassicPress
  * @subpackage Importer
  */
 

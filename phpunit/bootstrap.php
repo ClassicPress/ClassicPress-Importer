@@ -1,6 +1,6 @@
 <?php
 /**
- * PHPUnit bootstrap file for the WordPress Importer
+ * PHPUnit bootstrap file for the ClassicPress Importer
  *
  * @package Sample_Plugin
  */
@@ -33,8 +33,8 @@ require_once $_tests_dir . '/includes/functions.php';
  * Manually load the importer
  */
 function _manually_load_importer() {
-	if ( ! class_exists( 'WP_Import' ) ) {
-		require dirname( dirname( __FILE__ ) ) . '/src/wordpress-importer.php';
+	if ( ! class_exists( 'CP_Import' ) ) {
+		require dirname( dirname( __FILE__ ) ) . '/src/classicpress-importer.php';
 	}
 }
 tests_add_filter( 'plugins_loaded', '_manually_load_importer' );
@@ -42,5 +42,5 @@ tests_add_filter( 'plugins_loaded', '_manually_load_importer' );
 // Include the PHPUnit Polyfills autoloader.
 require dirname( __DIR__ ) . '/vendor/yoast/phpunit-polyfills/phpunitpolyfills-autoload.php';
 
-// Start up the WP testing environment.
+// Start up the CP testing environment.
 require $_tests_dir . '/includes/bootstrap.php';
