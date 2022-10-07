@@ -1,7 +1,7 @@
 # ClassicPress Importer
 
-[![CS Build Status](https://github.com/ClassicPress/ClassicPress-Importer/workflows/CS/badge.svg)](https://github.com/WordPress/ClassicPress-Importer/actions?query=workflow%3ACS)
-[![Test Build Status](https://github.com/ClassicPress/ClassicPress-Importer/workflows/Test/badge.svg)](https://github.com/WordPress/ClassicPress-Importer/actions?query=workflow%3ATest)
+[![CS Build Status](https://github.com/ClassicPress/ClassicPress-Importer/workflows/CS/badge.svg)](https://github.com/ClassicPress/ClassicPress-Importer/actions?query=workflow%3ACS)
+[![Test Build Status](https://github.com/ClassicPress/ClassicPress-Importer/workflows/Test/badge.svg)](https://github.com/ClassicPress/ClassicPress-Importer/actions?query=workflow%3ATest)
 
 The ClassicPress Importer will import the following content from either a ClassicPress or WordPress export file:
 
