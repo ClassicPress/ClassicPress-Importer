@@ -1,9 +1,9 @@
-# WordPress Importer
+# ClassicPress Importer
 
-[![CS Build Status](https://github.com/WordPress/wordpress-importer/workflows/CS/badge.svg)](https://github.com/WordPress/wordpress-importer/actions?query=workflow%3ACS)
-[![Test Build Status](https://github.com/WordPress/wordpress-importer/workflows/Test/badge.svg)](https://github.com/WordPress/wordpress-importer/actions?query=workflow%3ATest)
+[![CS Build Status](https://github.com/ClassicPress/ClassicPress-Importer/workflows/CS/badge.svg)](https://github.com/ClassicPress/ClassicPress-Importer/actions?query=workflow%3ACS)
+[![Test Build Status](https://github.com/ClassicPress/ClassicPress-Importer/workflows/Test/badge.svg)](https://github.com/ClassicPress/ClassicPress-Importer/actions?query=workflow%3ATest)
 
-The [WordPress Importer](https://wordpress.org/plugins/wordpress-importer/) will import the following content from a WordPress export file:
+The ClassicPress Importer will import the following content from either a ClassicPress or WordPress export file:
 
 * Posts, pages and other custom post types
 * Comments and comment meta
@@ -11,4 +11,4 @@ The [WordPress Importer](https://wordpress.org/plugins/wordpress-importer/) will
 * Categories, tags and terms from custom taxonomies and term meta
 * Authors
 
-For further information and instructions please see the [documention on Importing Content](https://wordpress.org/support/article/importing-content/#wordpress).
+For further information and instructions please see the documention on Importing Content (coming soon).

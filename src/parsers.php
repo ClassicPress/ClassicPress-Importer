@@ -1,8 +1,8 @@
 <?php
 /**
- * WordPress eXtended RSS file parser implementations
+ * ClassicPress eXtended RSS file parser implementations
  *
- * @package WordPress
+ * @package ClassicPress
  * @subpackage Importer
  */
 

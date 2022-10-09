@@ -1,8 +1,8 @@
 <?php
 /**
- * WordPress eXtended RSS file parser implementations
+ * ClassicPress eXtended RSS file parser implementations
  *
- * @package WordPress
+ * @package ClassicPress
  * @subpackage Importer
  */
 
@@ -99,7 +99,7 @@ class WXR_Parser_Regex {
 		}
 
 		if ( ! $wxr_version ) {
-			return new WP_Error( 'WXR_parse_error', __( 'This does not appear to be a WXR file, missing/invalid WXR version number', 'wordpress-importer' ) );
+			return new WP_Error( 'WXR_parse_error', __( 'This does not appear to be a WXR file, missing/invalid WXR version number', 'classicpress-importer' ) );
 		}
 
 		return array(
